@@ -105,7 +105,7 @@ example, setting state with the same value will not cause React to re-render our
 component. Even though we've _mutated_ the value of the `count` object, the
 `count` object is still the same object in memory.
 
-You may have seen examples of this behavior in JavaScript previously:
+You may have seen examples of this behaviour in JavaScript previously:
 
 ```js
 const count = { x: 0 }; // create an object and save a reference to it as "count"
